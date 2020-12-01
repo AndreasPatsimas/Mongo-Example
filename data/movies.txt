@@ -1,0 +1,8 @@
+db.movies.insertOne({ _id : 2, "title" : "Godzilla", "genre" : ["Action","Adventure","Sci-Fi"], "director" : "Gareth Edwards", "year": 2014, "revenue" : 200.66 })
+db.movies.insertOne({ _id : 3, "title" : "The Theory of Everything", "genre" : ["Biography","Drama","Romance"], "director" : "James Marsh", "year": 2014, "revenue" : 35.89})
+db.movies.insertOne({ _id : 4, "title" : "Star Wars: Episode VII - The Force Awakens", "genre" : ["Action","Adventure","Fantasy"], "director" : "J.J. Abrams", "year": 2015, "revenue" :  936.63})
+db.movies.insertOne({ _id : 5, "title" : "Inferno", "genre" : ["Action","Adventure","Crime"], "director" : "Ron Howard", "year": 2016, "revenue" : 34.26 })
+db.movies.insertOne({ _id : 6, "title" : "Rush", "genre" : ["Action","Biography","Drama"], "director" : "Ron Howard", "year": 2013, "revenue" :  26.9 })
+db.movies.insertOne({ _id : 7, "title" : "Taken 3", "genre" : ["Action","Thriller"], "director" : "Olivier Megaton", "year": 2014, "revenue" : 89.25 })
+db.movies.insertOne({ _id : 8, "title" : "Creed", "genre" : ["Drama","Sport"], "director" : "Ryan Coogler", "year": 2015, "revenue" : 109.71 })
+db.movies.insertOne({ _id : 9, "title" : "Spy", "genre" : ["Action","Comedy","Crime"], "director" : "Paul Feig", "year": 2015, "revenue" : 110.82})
