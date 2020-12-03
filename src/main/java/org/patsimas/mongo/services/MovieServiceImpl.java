@@ -1,6 +1,7 @@
 package org.patsimas.mongo.services;
 
 import lombok.extern.slf4j.Slf4j;
+import org.patsimas.mongo.domain.Movie;
 import org.patsimas.mongo.dto.MovieDto;
 import org.patsimas.mongo.repositories.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,5 +38,17 @@ public class MovieServiceImpl implements MovieService {
         log.info("Fetch all movies process end");
 
         return movies;
+    }
+
+    @Override
+    public void save(MovieDto movieDto) {
+
+        log.info("Save movie process begins");
+
+        Movie movie = conversionService.convert(movieDto, Movie.class);
+
+        movieRepository.save(movie);
+
+        log.info("Save movie process end");
     }
 }

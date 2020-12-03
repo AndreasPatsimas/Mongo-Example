@@ -9,4 +9,6 @@ import java.util.List;
 public interface MovieService {
 
     List<MovieDto> fetchAll();
+
+    void save(MovieDto movieDto);
 }
